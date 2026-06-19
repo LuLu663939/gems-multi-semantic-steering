@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code or the GEMS methodology in your research, please cite the associated paper as below."
+title: "GEMS: Geometric Constraints Enable Multi-Semantic Superposition in LLMs"
+authors:
+  - family-names: "Deng"
+    given-names: "Yu"
+    email: "lulu663939@pm.me"
+date-released: 2026-06-18
+url: "https://arxiv.org/abs/2606.19946"
+doi: "10.48550/arXiv.2606.19946"
+license: MIT
+repository-code: "https://github.com/LuLu663939/gems-multi-semantic-steering"
+
+preferred-citation:
+  type: article
+  title: "GEMS: Geometric Constraints Enable Multi-Semantic Superposition in LLMs"
+  authors:
+    - family-names: "Deng"
+      given-names: "Yu"
+  year: 2026
+  journal: "arXiv preprint arXiv:2606.19946"
+  url: "https://arxiv.org/abs/2606.19946"

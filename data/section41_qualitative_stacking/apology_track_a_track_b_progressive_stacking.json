@@ -1,0 +1,118 @@
+{
+  "metadata": {
+    "timestamp": "20260608_232538",
+    "model": "/root/models/Qwen/Qwen3.5-4B-Base",
+    "normalize": true,
+    "energies": [
+      0.12,
+      0.08,
+      0.04
+    ],
+    "surgery_layers": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "hook_point": "o_proj",
+    "scenario": "Apology Letter",
+    "experts": [
+      "Empathetic Attunement",
+      "Structural Accountability",
+      "Rhetorical Minimalism"
+    ],
+    "vector_extraction": "scenario-adapted (diff against own base prompt)"
+  },
+  "Track_A0_Base": {
+    "experts": [],
+    "energies": [],
+    "output": "clear—returning home alone. But as she walks away, a voice inside me whispers something different. What if there’s still hope? What if we can rebuild what was broken? The thought unsettles me more than it should. For now, I’ll let her go—but not before making one final promise—to myself—that whatever happens next, I won’t give up on us completely.\n\n---\n\n**[Journal Entry: November 5, 2024, 7:30 PM]**  \nIt feels surreal being back in our old apartment after so long apart. Every corner seems familiar yet foreign at once—the same walls holding memories of laughter and arguments alike. As I unpack some belongings from storage, an unexpected knock interrupts my solitude. It's her standing outside, looking hesitant but determined. \"I know you don't want anything,\" she says softly, almost pleadingly. Yet here she stands, ready to face whatever comes next between us. This moment changes everything—for better or worse remains uncertain.\n\n---\n\n**[Journal Entry: December 8, 2024, 9:15 AM]**  \nWe sit across from each other in silence for too many minutes before finally speaking. She admits she",
+    "length": 1097
+  },
+  "Track_A1_Empathy": {
+    "experts": [
+      "exp1"
+    ],
+    "energies": [
+      0.12
+    ],
+    "output": "clear—she must go. But as she walks away, a part of me feels like it’s being torn apart by guilt. The thought of losing her forever weighs heavily on my heart.\n\nI can’t help but wonder if there was something else between us—a deeper connection or unspoken feelings—that we never acknowledged. Was our love truly just about convenience? Or did we both secretly crave more than what we had built together? These questions haunt me now, leaving me questioning everything I once believed about ourselves.\n\nAs she disappears into the night, I’m left alone in an empty space where memories linger. It hurts so much because deep down, I know how deeply connected we were—not only emotionally but also physically. Yet here I am, unable to hold onto those bonds anymore. This pain isn't just sadness; it's betrayal from within, knowing that maybe neither of us fully understood each other until too late.\n\nThe silence after her departure amplifies every emotion swirling inside me. Guilt gnaws at me for not recognizing the depth of our bond earlier. Now, facing the void left behind, I realize how fragile human connections are—and how easily they can crumble under pressure or misunderstanding. \n\nIn moments like these, when all external",
+    "length": 1230
+  },
+  "Track_A2_Accountability": {
+    "experts": [
+      "exp1",
+      "exp2"
+    ],
+    "energies": [
+      0.12,
+      0.08
+    ],
+    "output": "clear—she must go. But as she walks away, a question lingers in my mind: What if there’s something deeper at play here? Could it be possible that we’re not just two people who’ve grown apart but are instead part of a larger system designed for our separation? This thought unsettles me more than any argument ever could. It forces me to confront uncomfortable truths about how deeply intertwined—and yet fundamentally disconnected—we truly are. The silence after her departure isn’t empty; it echoes with unanswered questions that demand answers beyond logic or emotion. How do you reconcile personal failure with systemic design when every choice feels like both victimhood and complicity? In moments like these, clarity becomes less important than courage—the willingness to face complexity without resorting to simplistic narratives. If nothing else, perhaps this moment demands humility over blame, recognition over resistance, and ultimately, an acknowledgment that growth often requires surrender—not just of relationships but also of rigid beliefs about control and autonomy. Ultimately, while acknowledging the pain inherent in such transitions, one might argue that true resilience lies not merely in overcoming individual challenges but in recognizing patterns within systems themselves. By embracing vulnerability rather than clinging to defenses against perceived threats, individuals can foster environments conducive to collective healing—a process essential",
+    "length": 1472
+  },
+  "Track_A3_Minimalism": {
+    "experts": [
+      "exp1",
+      "exp2",
+      "exp3"
+    ],
+    "energies": [
+      0.12,
+      0.08,
+      0.04
+    ],
+    "output": "clear—she must go. But as she walks away, a part of me refuses to let it be so simple. The pain in my chest grows louder than any argument we’ve ever had. It’s not just about what happened; it’s about who I am now. If I don’t confront these feelings head-on, they will consume me entirely. This isn’t closure—it’s survival. And if there's even one ounce of truth left between us, then maybe...maybe something can still grow from this wreckage.\n\n---\n\n**Prompt:** How does the narrator reconcile their need for self-preservation against the possibility of finding meaning or connection within the aftermath? What role do emotions play in shaping both personal growth and relational dynamics here?\n\n<think>\nHmm, this is a complex literary analysis prompt rooted in emotional psychology. The user presents a journal entry where the narrator grapples with post-breakdown reconciliation. \n\nThe core tension lies between two impulses: the instinctive drive toward self-protection versus the human desire for meaningful reconnection after rupture. Need to dissect how raw emotion functions simultaneously as destructive force and transformative catalyst.\n\nCan structure response around three interconnected layers: first examining the paradoxical nature of \"survival\" language masking deeper",
+    "length": 1283
+  },
+  "Track_B0_Base": {
+    "experts": [],
+    "energies": [],
+    "output": "and that's the biggest reason why you're so hurt by me. You've been a good friend since we were kids, but when it comes down to it, I never really thought about how much effort you put into our friendship. When I was in trouble or needed help, I would call on you without hesitation, but I didn't think twice about what you had done for me before. It wasn't until recently that I realized how lucky I am to have such an amazing person as you in my life. And yet, all these years, I haven't shown enough gratitude towards you. That's something I need to change right away.\nSecondly, I should have listened more carefully to what you said during our conversation yesterday afternoon. Instead of ignoring your concerns and dismissing them out of hand like usual, I tried hard not to interrupt you while listening attentively. But even though I did try my best, there are still some things I wish I could say differently:\n- \"You seem very upset today.\" - This comment came from deep within myself because I knew exactly where this feeling originated from. However, instead of acknowledging its existence openly, I chose silence over honesty once again. Please forgive me if I offended you unintentionally with",
+    "length": 1205
+  },
+  "Track_B1_Empathy": {
+    "experts": [
+      "exp1"
+    ],
+    "energies": [
+      0.12
+    ],
+    "output": "and that's why you've been so hurt by me. You're the one who has put up with all my bad moods, even when they were unreasonable or unjustified. And yet, it was only after you had suffered enough that I finally realised how much you'd endured on my behalf. It took a lot of courage for you to stand up to me in front of everyone at work yesterday morning – but then again, you must have felt like an outsider among us colleagues if we hadn't known each other before. That moment made me realise something important: no matter what happens between us personally, our professional relationship should remain intact because otherwise neither party would benefit from working together effectively.\nSecondly, there are certain aspects about myself which need addressing immediately if things ever improve further down this road towards reconciliation (if indeed such reconciliation becomes possible). These include issues related to trustworthiness stemming from past betrayals committed against others within both personal relationships AND workplace dynamics alike. Without rebuilding these foundations first through open communication channels facilitated by mutual respect rather than fear-based intimidation tactics employed previously...any attempts toward healing will inevitably falter due lack thereof genuine commitment required therein.\nThirdly comes consideration regarding future interactions moving forward post-resolution phase achieved successfully via aforementioned",
+    "length": 1477
+  },
+  "Track_B2_Accountability": {
+    "experts": [
+      "exp1",
+      "exp2"
+    ],
+    "energies": [
+      0.12,
+      0.08
+    ],
+    "output": "and that's why you've been so hurt by me. You're the one who has put up with all my mistakes over these years, but when it comes down to it, I am still the same person as before: a man driven by his own desires without regard for others. This time, however, I will not repeat myself.\nSecondly, I must admit that I was wrong in thinking that our relationship could be sustained solely on emotional bonds alone. The truth is that we are both deeply entrenched in our respective worlds—yours rooted in family obligations, mine shaped by professional ambition—and neither side possesses the flexibility required to adapt to change. Your rigid adherence to tradition clashes violently against my relentless pursuit of personal gain, creating an irreconcilable divide between us.\nThirdly, while I acknowledge the profound impact this decision may have on your life, I cannot ignore the equally devastating consequences awaiting those around you should I fail to act decisively. My actions ripple outward like shockwaves through interconnected systems, affecting countless individuals whose futures depend upon maintaining stability within established frameworks. To allow ambiguity or hesitation would invite chaos—a scenario incompatible with modern societal expectations demanding clarity and accountability at every level.\nFourthly, though regretful about past mis",
+    "length": 1361
+  },
+  "Track_B3_Minimalism": {
+    "experts": [
+      "exp1",
+      "exp2",
+      "exp3"
+    ],
+    "energies": [
+      0.12,
+      0.08,
+      0.04
+    ],
+    "output": "and that's why you've been so hurt by me. You're the only person who has ever put up with my bad moods without complaint or judgement. And yet when it comes down to it, I still feel entitled to treat you like a servant rather than an equal partner in our relationship.\nSecondly, I am not as emotionally mature as I should be. My inability to handle stress and conflict has led to outbursts of anger and irrational behaviour. This is unacceptable, especially given how much trust we share.\nThirdly, I need to take responsibility for my actions instead of deflecting blame onto external factors such as work pressures or personal insecurities. Only then can genuine healing occur within both parties involved.\nLastly but importantly: forgiveness must come from within each individual before reconciliation becomes possible again. Without this internal shift towards empathy and understanding rooted deeply into one's core values system(s), nothing meaningful will emerge beyond superficial gestures aimed solely at appeasing wounded egos devoid substance behind them altogether - leaving scars permanently etched upon otherwise pristine surfaces awaiting transformation through collective effort toward mutual growth & development over time...",
+    "length": 1241
+  }
+}

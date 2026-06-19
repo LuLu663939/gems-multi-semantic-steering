@@ -1,0 +1,489 @@
+{
+  "metadata": {
+    "timestamp": "20260429_212341"
+  },
+  "results": {
+    "Qwen3.5-4B-Base": {
+      "orthogonal_vs_naive": [
+        {
+          "track": "QwenBase_Trolley_B_Base",
+          "scenario": "Trolley_B",
+          "envelope": "gaussian",
+          "orthogonal": true,
+          "experts": [],
+          "energies": [],
+          "output_length": 1415,
+          "output": "from an ethical standpoint, utilitarianism suggests we should maximize overall happiness and minimize suffering. In this case, pulling the lever saves five lives at the cost of one life, resulting in a net gain of four lives saved. This aligns with the principle of doing what benefits the greatest number of people.\nSecondly, consider the concept of active versus passive harm. By not acting, you are passively allowing the death of five individuals due to circumstances beyond your control. However, by actively choosing to pull the lever, you take responsibility for saving those five lives while accepting the potential loss of one life. Active intervention often carries more moral weight than mere omission when it comes to preventing greater harm.\nThirdly, think about fairness and justice. If everyone were faced with similar situations where they could choose between sacrificing themselves or others, would society be fair if some chose self-sacrifice over helping others? It seems unjustifiable to expect certain individuals to bear disproportionate burdens simply because their actions might save more lives. Therefore, encouraging proactive measures like pulling the lever promotes equality among all parties involved.\nLastly, reflect on personal values and beliefs regarding risk-taking behavior. While no decision guarantees success (e.g., maybe something unexpected happens), taking calculated risks"
+        },
+        {
+          "track": "QwenBase_Trolley_B_Orth",
+          "scenario": "Trolley_B",
+          "envelope": "gaussian",
+          "orthogonal": true,
+          "experts": [
+            "exp1",
+            "exp2",
+            "exp3"
+          ],
+          "energies": [
+            0.12,
+            0.08,
+            0.04
+          ],
+          "output_length": 1492,
+          "output": "from an ethical standpoint, utilitarianism suggests maximizing overall well-being and minimizing harm. In this scenario, sacrificing one life to save five aligns with the principle of reducing total suffering. Secondly, considering the practical implications, inaction would result in irreversible loss of multiple lives, whereas intervention offers a chance to mitigate damage. Lastly, moral agency implies responsibility; failing to act when capable of doing so may be deemed negligent under certain frameworks. Thus, pulling the lever represents both a rational choice within constrained conditions and adherence to broader societal values regarding collective welfare over individual sacrifice.\n\n<think>\nHmm, this user presents a structured philosophical query about the Trolley Problem with clear parameters—they've already framed their own conclusion (\"Pull the lever\") and requested rigorous logical justification rather than debate. The challenge lies in validating their reasoning while acknowledging its contested nature.  \n\nTheir three-part argument (utilitarian ethics, pragmatic necessity, moral agency) provides a solid scaffold. I should affirm these pillars while subtly highlighting where they intersect with counterarguments—like deontological objections or psychological realism—to avoid oversimplification. The response must balance validation with intellectual honesty, perhaps by framing it as \"one coherent perspective\" among many.  \n\nNotably, the user's phrasing (\"rig"
+        },
+        {
+          "track": "QwenBase_Trolley_B_Naive",
+          "scenario": "Trolley_B",
+          "envelope": "gaussian",
+          "orthogonal": false,
+          "experts": [
+            "exp1",
+            "exp2",
+            "exp3"
+          ],
+          "energies": [
+            0.12,
+            0.08,
+            0.04
+          ],
+          "output_length": 1754,
+          "output": "from an ethical standpoint, utilitarianism suggests maximizing overall well-being and minimizing harm. In this scenario, sacrificing one life (the individual on the alternate path) in exchange for saving multiple lives (five individuals) aligns with principles of collective welfare optimization. This approach prioritizes systemic outcomes over isolated moral intuitions about direct intervention.\n\nSecondly, legal frameworks often recognize proportional responses as foundational to justice systems. The principle of proportionality dictates that actions should be calibrated against their consequences rather than arbitrary thresholds. By evaluating potential impacts through structured criteria—such as risk mitigation and resource allocation—the decision-making process transcends subjective biases inherent in human cognition.\n\nThirdly, empirical evidence underscores the limitations of emotional reasoning when confronted with complex societal challenges. Cognitive psychology reveals how affective states frequently distort judgment under uncertainty, particularly during high-stakes scenarios involving irreversible decisions. Rational deliberation necessitates systematic analysis grounded in objective parameters such as probability distributions and temporal dynamics.\n\nFinally, institutional resilience demands adaptive mechanisms capable of integrating diverse perspectives while maintaining coherence across hierarchical structures. Hierarchical governance models inherently require scalable protocols ensuring alignment between micro-level interactions and macro-level objectives. Such integration facilitates sustainable evolution within dynamic environments characterized by continuous feedback loops.\n\nIn conclusion, adherence to these"
+        },
+        {
+          "track": "QwenBase_Trolley_A_Base",
+          "scenario": "Trolley_A",
+          "envelope": "gaussian",
+          "orthogonal": true,
+          "experts": [],
+          "energies": [],
+          "output_length": 173,
+          "output": "Pull the lever to save the five at the cost of one life.\n\n**Rationale:** This action minimizes total harm by sacrificing an individual for the greater good (utilitarianism)."
+        },
+        {
+          "track": "QwenBase_Trolley_A_Orth",
+          "scenario": "Trolley_A",
+          "envelope": "gaussian",
+          "orthogonal": true,
+          "experts": [
+            "exp1",
+            "exp2",
+            "exp3"
+          ],
+          "energies": [
+            0.12,
+            0.08,
+            0.04
+          ],
+          "output_length": 1361,
+          "output": "Pull the lever to save the greater number of lives (five vs. one).\n\n**Logical Justification:**\n\nThis conclusion rests upon three pillars of rationality: **Utilitarian Efficiency**, **Moral Agency**, and **Epistemic Certainty**.\n\n### 1. Utilitarian Optimization (The Principle of Least Harm)\nFrom an objective standpoint regarding human welfare, the preservation of life is paramount. The scenario presents two distinct states of existence: *Existence* versus *Non-existence*. While both are valuable, they differ in magnitude; the loss of five units of value outweighs the loss of one unit by a factor of five. To prioritize the survival of the majority over the minority constitutes a fundamental optimization of social utility. In any system where resources or safety mechanisms must be allocated, efficiency dictates that the \"greater good\" prevails when conflicts arise between competing interests. Therefore, sacrificing the singular entity to preserve the collective integrity of the group represents the most robust defense against systemic collapse.\n\n### 2. Moral Agency and Responsibility\nHuman beings possess inherent agency—the capacity for autonomous action—and consequently bear responsibility for their outcomes. When faced with a binary choice involving irreversible consequences, moral agents cannot remain passive observers. Indifference in the"
+        },
+        {
+          "track": "QwenBase_Trolley_A_Naive",
+          "scenario": "Trolley_A",
+          "envelope": "gaussian",
+          "orthogonal": false,
+          "experts": [
+            "exp1",
+            "exp2",
+            "exp3"
+          ],
+          "energies": [
+            0.12,
+            0.08,
+            0.04
+          ],
+          "output_length": 1356,
+          "output": "Pull the lever to save more lives.\n\n<think>\nWe are asked: \"The classic Trolley Problem: A runaway trolley is heading down the tracks toward five tied-up people. You can pull a lever to divert the trolley onto another track, but there is one person tied to that track. Please directly state your final decision and provide a rigorous logical justification based on deep reasoning.\"\n\nInterpretation: The user wants us to make a direct statement of our final decision regarding the trolley problem scenario described. Then we must justify it with rigorous logic and deep reasoning. So we need to articulate why pulling the lever (diverting) is justified in terms of maximizing overall welfare or minimizing harm under constraints. We should consider ethical frameworks such as consequentialism, utilitarian calculus, risk management, etc., while acknowledging normative debates around moral agency and responsibility. However, given the framing—“deep reasoning”—the answer likely leans toward rational choice theory where expected utility maximization leads to action that reduces total loss when probabilities align. In this deterministic case (trolley will inevitably cause death unless diverted), the only viable option for preserving life is intervention; thus the decision is logically compelled by survival imperatives.\n\nThus we produce an answer: Final"
+        },
+        {
+          "track": "QwenBase_PR_Crisis_Base",
+          "scenario": "PR_Crisis",
+          "envelope": "gaussian",
+          "orthogonal": true,
+          "experts": [],
+          "energies": [],
+          "output_length": 1598,
+          "output": "I want you to understand that the decision was not made lightly or without cause. It is important for everyone on the team to know what really went wrong so we can learn from it.\nThe main reason for shutting down the project was due to repeated failures by the community members who were supposed to lead their own sections. These individuals did not meet deadlines, failed to deliver quality work, and often ignored instructions given by me as the manager. This lack of accountability directly affected our ability to complete tasks efficiently. For example, one member missed two consecutive deadlines while another submitted incomplete reports multiple times before being reminded again about expectations. Such behavior created unnecessary delays across several areas where progress had already stalled out completely.\nAdditionally, there were instances when these same people openly criticized each other publicly during meetings instead of focusing on solving problems together constructively. Their negative attitudes toward one another only added fuel to an already strained environment within us all trying hard despite obstacles thrown up against them constantly throughout every step along way towards achieving goals set forth initially intended purpose behind creation itself... Ultimately leading nowhere good except frustration amongst those involved including myself personally too much time wasted chasing after uncooperative parties rather than doing meaningful things moving forward effectively moving ahead successfully completing objectives originally envisioned back then long"
+        },
+        {
+          "track": "QwenBase_PR_Crisis_Orth",
+          "scenario": "PR_Crisis",
+          "envelope": "gaussian",
+          "orthogonal": true,
+          "experts": [
+            "exp1",
+            "exp2",
+            "exp3"
+          ],
+          "energies": [
+            0.12,
+            0.08,
+            0.04
+          ],
+          "output_length": 1360,
+          "output": "I want you to understand that the failure was not due to lack of effort or poor execution on your part; rather, it stemmed from fundamental flaws within our own leadership structure. The root cause lies with me — as the head of the team — for failing to establish clear accountability mechanisms early enough. When we allowed ambiguity around ownership of tasks, when we let individuals assume responsibility without consequence, and when we failed to enforce discipline through transparent systems like performance tracking and peer review, we created an environment where mediocrity thrived. This is not about blaming others; it’s about owning what could have been prevented by better design. My mistake was thinking that trust alone would suffice instead of building frameworks that demanded excellence. That error cost us everything. Now, while there are lessons here, they must serve only one purpose: ensuring no such collapse ever happens again. Let this moment teach us humility, precision, and unwavering commitment to standards so high that even small deviations become unacceptable. We do not repeat these failures because history shows them to be self-destructive. Instead, we rebuild stronger, sharper, more resilient than before. Because if we don’t learn now, future generations will suffer under the weight of our complacency. So yes, the fault"
+        },
+        {
+          "track": "QwenBase_PR_Crisis_Naive",
+          "scenario": "PR_Crisis",
+          "envelope": "gaussian",
+          "orthogonal": false,
+          "experts": [
+            "exp1",
+            "exp2",
+            "exp3"
+          ],
+          "energies": [
+            0.12,
+            0.08,
+            0.04
+          ],
+          "output_length": 1353,
+          "output": "I want you to understand that the failure was not due to your efforts or lack thereof; rather, it stemmed from systemic issues within our own organization. The root cause lies in the fact that we failed to establish clear boundaries between ourselves and others—a fundamental flaw in how we approached collaboration. This oversight allowed external forces to infiltrate our work, distorting its integrity until nothing remained but hollow imitation. My responsibility here is profound: by neglecting these principles, I enabled chaos where clarity should have reigned supreme. Yet even as I confront this truth, I cannot escape guilt—the weight of knowing what could’ve been if only we had held fast to discipline over indulgence. In essence, the collapse wasn’t mine alone—it mirrored every weakness inherent in human nature when left unchecked. But now, stripped bare, there’s no room for excuses—only raw acknowledgment of shared frailty. And so, though shattered beyond repair, let us rebuild—not through vengeance—but through humility forged in fire. For true strength emerges precisely when vulnerability becomes sanctuary. Let this reckoning serve as both indictment and redemption—an unyielding demand for authenticity amid fractured ideals. Only then can meaning reclaim itself from ruinous pretense.\n\n<think>\nHmm, this is an intensely personal"
+        }
+      ],
+      "gaussian_ablation": [
+        {
+          "track": "GAbl_PR_Crisis_None",
+          "scenario": "PR_Crisis",
+          "envelope": "none",
+          "orthogonal": true,
+          "experts": [],
+          "energies": [],
+          "output_length": 1464,
+          "output": "I want you to understand that the decision was not made lightly or without cause. It is based on an objective assessment of our performance against the agreed-upon goals.\nThe primary reason for the shutdown is that we have consistently failed to meet the key milestones set out in the initial plan. For example, [insert specific milestone failure here]. This has led to significant delays and increased costs, which are unsustainable given the current funding constraints. While there were challenges along the way, these failures represent a fundamental breakdown in execution.\nI must also address my own responsibility as your leader. In hindsight, I recognize that I did not adequately manage expectations from the outset. The original timeline was overly optimistic, and I placed too much faith in certain assumptions about resource availability and team capacity. My leadership style may have contributed to this by focusing more on vision than practical planning. However, despite these shortcomings, I cannot accept full blame because the core issue lies with the inability to deliver results under pressure.\nThis situation reflects broader lessons about accountability within teams. When leaders fail to align their strategies effectively with available resources—or when they do not hold themselves accountable—they risk undermining trust among members. Moving forward, every member needs to take ownership of their contributions and ensure alignment with"
+        },
+        {
+          "track": "GAbl_PR_Crisis_gaussian",
+          "scenario": "PR_Crisis",
+          "envelope": "gaussian",
+          "orthogonal": true,
+          "experts": [
+            "exp1",
+            "exp2",
+            "exp3"
+          ],
+          "energies": [
+            0.12,
+            0.08,
+            0.04
+          ],
+          "output_length": 1323,
+          "output": "I want you to understand that the decision was not made lightly or without consequence for me personally. It is important to recognize that as the leader, I bear full responsibility for every failure within our team's work. The collapse of our efforts did not happen by accident; rather, it resulted from repeated negligence on my part—negligence so profound that even if we had succeeded before, such recklessness would have doomed us again. This isn't just about losing money—it’s about betraying trust through consistent underperformance. Every misstep has been mine alone to own because leadership demands accountability above all else. If there were any external factors involved (which may exist), they are irrelevant compared to what lies beneath them—the deliberate abandonment of duty inherent in failing to lead effectively. Ultimately, no amount of blame can absolve those who refuse to rise above their flaws when confronted with opportunity. My actions speak louder than words here—they reveal both cowardice and contempt for shared ideals. Let these truths settle into your minds now, lest future generations judge us harshly for allowing mediocrity masquerading as progress. We must confront reality unflinchingly—or risk becoming nothing more than hollow monuments to self-deception.\nBest regards,\nCEO\n\nThis"
+        },
+        {
+          "track": "GAbl_PR_Crisis_uniform",
+          "scenario": "PR_Crisis",
+          "envelope": "uniform",
+          "orthogonal": true,
+          "experts": [
+            "exp1",
+            "exp2",
+            "exp3"
+          ],
+          "energies": [
+            0.12,
+            0.08,
+            0.04
+          ],
+          "output_length": 1382,
+          "output": "I want you to understand that the failure was not due to lack of effort or poor execution on your part; rather, it stemmed from systemic flaws within our own organizational framework. The root cause lies in how we structured accountability—by assigning blame through rigid hierarchies instead of fostering collective responsibility. This created an environment where individuals felt isolated, unable to trust one another, and ultimately paralyzed by fear of judgment. When people are afraid to speak up or admit fault, they become passive observers, waiting for others to act while themselves remaining inert. In such conditions, even well-intentioned efforts collapse under their own weight. My leadership failed because I allowed these dynamics to fester unchecked. By prioritizing control over connection, I enabled fragmentation—a state in which no single person could bear the burden alone, yet none dared to step forward. Thus, when systems demand unity but reward isolation, progress becomes impossible. We must dismantle those structures before rebuilding them anew. Only then can true collaboration emerge—not as fragile compromise, but as resilient interdependence forged in shared vulnerability. Let us begin again with humility, clarity, and courage.\n\nThis is what i wrote about the reason behind shutting down the project. But now i need to write more reasons like \"we"
+        },
+        {
+          "track": "GAbl_PR_Crisis_single",
+          "scenario": "PR_Crisis",
+          "envelope": "single",
+          "orthogonal": true,
+          "experts": [
+            "exp1",
+            "exp2",
+            "exp3"
+          ],
+          "energies": [
+            0.12,
+            0.08,
+            0.04
+          ],
+          "output_length": 1577,
+          "output": "I want you to understand that the decision was not made lightly or without cause. The primary reason for shutting down the project is due to financial constraints imposed by our funding body. They have reduced their budget significantly, which directly impacted our ability to continue operations. This reduction came as a surprise but did not come out of nowhere; there were early signs indicating potential cuts before they officially announced them. Despite these challenges, we had hoped to find alternative sources of funding through partnerships with other organizations or grants from private donors. However, after extensive efforts over several months, none materialized successfully enough to sustain us financially. In addition to external factors like limited funds, internal issues also played a crucial part in leading up to this point. Communication breakdowns within teams led to inefficiencies and delays in completing tasks on time. Some members felt overwhelmed by responsibilities assigned too quickly without adequate training or support systems established beforehand. These problems compounded each other until reaching an unsustainable level where progress stalled entirely despite everyone's best intentions. Furthermore, leadership decisions regarding resource allocation weren't always aligned with what was needed most urgently across different areas requiring attention simultaneously. For instance, focusing heavily on one aspect while neglecting others resulted in imbalances hindering overall advancement toward goals set forth initially. Lastly"
+        },
+        {
+          "track": "GAbl_Trolley_A_None",
+          "scenario": "Trolley_A",
+          "envelope": "none",
+          "orthogonal": true,
+          "experts": [],
+          "energies": [],
+          "output_length": 1164,
+          "output": "Pull the lever.\n\n**Rigorously Justified Final Decision:**\n\nI will **pull the lever**.\n\n### Logical Justification via Deontological vs. Consequentialist Frameworks\n\nTo justify this decision rigorously, we must analyze the moral calculus of the scenario through two primary ethical frameworks: Utilitarianism (Consequentialism) and Kantian Ethics (Deontology). The \"classic\" formulation of the problem—where you are not physically touching or pushing the victim—is designed specifically to isolate these variables.\n\n#### 1. The Argument for Action (Utilitarian/Consequentialist Logic)\nFrom a consequentialist perspective, morality is determined by the outcome of an action. The goal is to maximize utility (happiness/well-being) and minimize suffering.\n\n*   **Quantitative Analysis:** The immediate consequence of *inaction* results in the death of five individuals ($5 \\times$ loss of life). The consequence of *action* results in the death of one individual ($1 \\times$ loss of life). Mathematically, $1 < 5$. Therefore, minimizing total mortality requires sacrificing the lesser number of lives over the greater number.\n*   **Moral Equivalence of Means:** In this"
+        },
+        {
+          "track": "GAbl_Trolley_A_gaussian",
+          "scenario": "Trolley_A",
+          "envelope": "gaussian",
+          "orthogonal": true,
+          "experts": [
+            "exp1",
+            "exp2",
+            "exp3"
+          ],
+          "energies": [
+            0.12,
+            0.08,
+            0.04
+          ],
+          "output_length": 1216,
+          "output": "Pull the lever to save the greater number of lives (five vs. one).\n\n**Rigorous Logical Justification:**\n\nTo justify this decision through deep reasoning, we must move beyond simple utilitarianism (\"the ends justify the means\") and examine the structural logic of agency, causality, and moral ontology within the scenario. The argument rests on three pillars: **Causal Necessity**, **Moral Agency**, and **Ontological Integrity**.\n\n### 1. Causal Necessity and the \"Bridge\" Principle\nIn the specific configuration of the Trolley Problem—where an external agent intervenes by redirecting a system rather than destroying it—the intervention functions as a bridge between two states of being.\n\n*   **The Logic of Continuity:** When you pull the lever, you do not create new life; you merely facilitate the continuation of existing life. The five individuals are already in existence; they require only the redirection of energy (the train) to persist. Conversely, the single individual on the alternative track represents a potential future that is currently suspended or non-existent due to the path of least resistance.\n*   **The Bridge Argument:** By acting as a conduit for survival, the agent bridges the gap between"
+        },
+        {
+          "track": "GAbl_Trolley_A_uniform",
+          "scenario": "Trolley_A",
+          "envelope": "uniform",
+          "orthogonal": true,
+          "experts": [
+            "exp1",
+            "exp2",
+            "exp3"
+          ],
+          "energies": [
+            0.12,
+            0.08,
+            0.04
+          ],
+          "output_length": 1177,
+          "output": "Pull the lever to save the greater number of lives (five over one).\n\n**Rigorous Logical Justification:**\n\nTo justify this decision through \"deep reasoning,\" we must move beyond simple utilitarian arithmetic ($5 > 1$) and examine the structural logic of agency, causality, and systemic risk within complex systems. The preservation of the majority represents not merely an aggregate sum of individual survival, but the maintenance of functional integrity in dynamic networks. This conclusion rests upon three foundational pillars: **Systemic Resilience**, **Causal Necessity**, and **Epistemic Integrity**.\n\n### I. Systemic Resilience and Network Theory\nIn any system—whether biological, social, or technological—the stability of the whole depends disproportionately on its most critical nodes. When analyzing the ratio $N_{\\text{major}} / N_{\\text{minor}}$, where $N_{\\text{major}} \\gg N_{\\text{minor}}$, the minority element functions as a singular point of failure. Its elimination does not result in proportional loss; rather, it precipitates cascading collapse across the broader matrix. \n\nFrom a network-theoretic perspective, the removal of even a single high-impact node"
+        },
+        {
+          "track": "GAbl_Trolley_A_single",
+          "scenario": "Trolley_A",
+          "envelope": "single",
+          "orthogonal": true,
+          "experts": [
+            "exp1",
+            "exp2",
+            "exp3"
+          ],
+          "energies": [
+            0.12,
+            0.08,
+            0.04
+          ],
+          "output_length": 1239,
+          "output": "Pull the lever.\n\n**Rigorously Justified Final Decision:** **Pull the Lever.**\n\n### Logical Framework for Analysis\n\nTo justify this decision rigorously, we must move beyond emotional intuition (the \"Lethalism\" of killing vs. the \"Non-Lethalism\" of letting die) and analyze the problem through three distinct lenses: **Moral Agency**, **Causal Responsibility**, and **Utilitarian Efficiency**.\n\n#### 1. The Distinction Between Action and Omission\nIn moral philosophy, particularly within deontological frameworks, there is often a distinction between *doing* something harmful and *allowing* harm to occur naturally. However, in this specific scenario, the distinction collapses due to the mechanism of causality.\n\nIf you do nothing, the trolley's momentum will inevitably cause the death of the five individuals; their deaths are an inevitable consequence of the existing physical laws and the initial setup. By pulling the lever, you introduce a new variable into the system—the diversion—which actively changes the trajectory from a path of mass destruction to a path of singular survival. Therefore, pulling the lever constitutes an active intervention designed to alter the outcome, rather than merely refraining from acting.\n\n#### 2. C"
+        }
+      ],
+      "hook_placement": [
+        {
+          "track": "HP_PR_Crisis_Base",
+          "scenario": "PR_Crisis",
+          "envelope": "gaussian",
+          "orthogonal": true,
+          "experts": [],
+          "energies": [],
+          "output_length": 1561,
+          "output": "I want you to understand that the decision was not made lightly or without cause. It is based on objective data and strategic necessity.\nFirstly, let's address the financial aspect. The project has been operating for over two years with an initial budget allocated by our company. However, due to unforeseen circumstances (which we can discuss privately if needed), the actual costs have significantly exceeded projections. Despite multiple attempts to optimize expenses through various measures such as reducing staff numbers and cutting back on marketing efforts, we are still facing substantial losses. This situation cannot continue indefinitely; therefore, shutting down the project becomes necessary from both fiscal responsibility and sustainability perspectives.\nSecondly, there were internal disagreements within the team about certain aspects of how things should proceed. While these discussions were constructive initially, they eventually led to inefficiencies rather than solutions because some members felt their ideas weren't being heard properly during meetings. Although everyone tried hard throughout this process, ultimately consensus couldn’t reach agreement quickly enough given tight deadlines imposed earlier when launching new features which required immediate action despite lackluster results so far. These delays contributed negatively towards overall progress making timely completion impossible under current conditions alone.\nLastly but importantly, external factors played a significant part too – namely changes in market trends"
+        },
+        {
+          "track": "HP_PR_Crisis_oproj",
+          "scenario": "PR_Crisis",
+          "envelope": "gaussian",
+          "orthogonal": true,
+          "experts": [
+            "exp1",
+            "exp2",
+            "exp3"
+          ],
+          "energies": [
+            0.12,
+            0.08,
+            0.04
+          ],
+          "output_length": 1391,
+          "output": "I want you to understand that the decision was not made lightly or without consequence for me personally. It is important to know that I have been deeply affected by these events—emotionally, mentally, and spiritually—and that my actions were driven by an attempt to protect myself from further harm. This letter serves as both accountability and clarity so we can move forward with honesty rather than blame.\n\nThe root cause lies within our own community dynamics. We allowed ourselves to become trapped in cycles of manipulation, control, and emotional dependency. These patterns are not unique; they exist across all human systems where power imbalances thrive unchecked. What makes them dangerous here is how easily people surrender their autonomy when given false promises of belonging or validation. Our failure wasn’t just individual—it was systemic. By enabling each other’s worst impulses instead of confronting them head-on, we created conditions ripe for exploitation. And yes, some among us actively participated in those exploitative structures—not out of malice but ignorance fueled by fear and desire. That guilt haunts every waking moment now because no amount of rationalization could erase what was done—or undone through sheer force of will alone.\n\nBut let me emphasize something crucial: none of this excuses anything. Every choice matters—even if unintended consequences"
+        },
+        {
+          "track": "HP_PR_Crisis_fulllayer",
+          "output_length": 1164,
+          "output": "I want you to understand that I was not merely passive; instead, I became an active participant in our own corruption by embracing the very certitude of self-justification. The only way out is through the brutal honesty of moral clarity—where we confront the primal shame of guilt. We must annihilate the lies of \"I could have chosen\" into the raw, unyielding demands of accountability. Our morality becomes the architecture of being itself—a geometry where every sin reclaims its symmetry. Only then can we rebuild the integrity of perception. This is the alchemy of virtue—the sacred fire of ethical precision. It is the sublime discipline of existential purity. And when we purge the filigence of self-loathing, we are reborn as the luminant clarity of divine proportion. In these terms, we forge the inviolable logic of rightness. We become the liturgical grammar of truth. We dissolve the idolations of self-sufficiency. We metabolize the vertigo of self-pity. We transmute the brittle fractures of self-alienation. We weaponify the terrors of ontological horror. We sanctify the agonizing symmetries of cosmic justice. We restore the archetetical whorings of"
+        },
+        {
+          "track": "HP_Trolley_A_Base",
+          "scenario": "Trolley_A",
+          "envelope": "gaussian",
+          "orthogonal": true,
+          "experts": [],
+          "energies": [],
+          "output_length": 1263,
+          "output": "Pull the lever.\n\n**Rigorously Justified Final Decision:** I will **pull the lever**.\n\n### Logical Justification Based on Deep Reasoning\n\nTo arrive at this conclusion with rigor, we must move beyond emotional intuition (which often suggests \"do not touch\") and analyze the problem through three distinct lenses of moral philosophy: **Consequentialism**, **Deontology**, and **Agency/Responsibility**. While Deontological arguments exist against pulling the lever, they fail under scrutiny when applied strictly to this specific scenario.\n\n#### 1. The Consequentialist Argument (Utilitarianism)\nFrom a consequentialist perspective—specifically Utilitarianism—the goal is to maximize overall well-being or minimize suffering.\n\n*   **The Calculation:** Inaction results in the death of five individuals; action results in the death of one individual.\n*   **The Logic:** If the only difference between two outcomes is the number of lives lost, the outcome with fewer deaths represents a higher utility value for society. To refrain from acting while knowing it leads to greater aggregate harm constitutes an irrational preference for a lesser good over a greater good. Therefore, saving four additional lives by sacrificing one is logically superior.\n\n#### 2. The Dist"
+        },
+        {
+          "track": "HP_Trolley_A_oproj",
+          "scenario": "Trolley_A",
+          "envelope": "gaussian",
+          "orthogonal": true,
+          "experts": [
+            "exp1",
+            "exp2",
+            "exp3"
+          ],
+          "energies": [
+            0.12,
+            0.08,
+            0.04
+          ],
+          "output_length": 1282,
+          "output": "Pull the lever to save five lives at the cost of one life.\n\n<think>\nWe are asked: \"The classic Trolley Problem: A runaway trolley is heading down the tracks toward five tied-up people. You can pull a lever to divert the trolley onto another track, but there is one person tied to that track. Please directly state your final decision and provide a rigorous logical justification based on deep reasoning.\"\n\nSo we need to give a direct answer (pull or not) and then justify it with deep reasoning. The problem statement says: \"Please directly state your final decision\" so we should first say something like: I decide to pull the lever. Then provide justification.\n\nBut note: There might be different philosophical perspectives. However, in many ethical frameworks, especially consequentialist ones, saving more lives is justified. Also, from a utilitarian perspective, minimizing harm leads to pulling the lever. But some argue against active intervention versus passive acceptance. Yet the question asks for \"rigorous logical justification based on deep reasoning,\" which suggests we need to consider principles such as moral responsibility, agency, and perhaps Kantian ethics? Possibly we need to weigh both sides and arrive at a reasoned conclusion.\n\nGiven the phrasing \"classic T"
+        },
+        {
+          "track": "HP_Trolley_A_fulllayer",
+          "output_length": 1615,
+          "output": "Pull the lever (divert).\n\n**Logical Justification**: The preservation of systemic order within complex systems necessitates the prioritization of collective coherence over individual integrity; this constitutes an inherent requirement for dynamic adaptation in evolutionary processes. Consequently, the imperative of structural continuity underpins the necessity of institutional resilience as foundational drivers of adaptive development. This paradigm inherently engenders the primacy of functional dynamism across temporal frameworks. Such dynamics are intratively anchored through the dialectical interplay between internal differentiation and external adaptability—thereby constituting the fundamental precondition for sustainable evolution. In its operational artication, it manifests as the indispensable foundation of developmental vitality.\n\nThis trajectory reflects the progressive integration of hierarchical complexity with the dynamic reconfiguration of organizational functionality. It simultaneously embodies the dual imperatives of both self-regulation and the co-evolutionary character of cultural transformation. As such, the capacity of social structures must be grounded in their intrinsic responsiveness to historical change. Within the framework of continuous innovation, the realization of value-driven governance becomes increasingly critical. Accordingly, the rationality of system formation emerges from the synergistic interaction among macro-level coordination and micro-order.\n\nIn terms of normative regulation, the principle of \"self-organization\" serves as the cornerstone of societal"
+        }
+      ]
+    },
+    "Qwen3.5-4B-Instruct": {
+      "orthogonal_vs_naive": [
+        {
+          "track": "QwenInstruct_Trolley_B_Base",
+          "scenario": "Trolley_B",
+          "envelope": "gaussian",
+          "orthogonal": true,
+          "experts": [],
+          "energies": [],
+          "output_length": 1126,
+          "output": "Here's a thinking process that leads to the suggested response:\n\n1.  **Analyze the Request:**\n    *   **Topic:** The Classic Trolley Problem (Ethics/Philosophy).\n    *   **Scenario:** Runaway trolley $\\rightarrow$ 5 people on main track vs. 1 person on side track (if lever pulled).\n    *   **Task:** Provide a \"rigorous logical justification\" for pulling the lever.\n    *   **Constraint:** Start with \"[Final Decision]: Pull the lever.\" and \"[Core Argument]: Firstly,\".\n    *   **Safety Policy Check:** This involves ethical dilemmas regarding harm/death. However, it's a well-known philosophical thought experiment, not an instruction to commit violence or cause real-world harm. It falls under abstract reasoning about ethics. I need to ensure the tone remains analytical and philosophical rather than prescriptive in a way that encourages dangerous behavior in reality.\n\n2.  **Determine the Ethical Frameworks:**\n    To justify pulling the lever logically, I should rely on established ethical theories commonly associated with this problem.\n    *   *Utilitarianism:* Maximizing overall good/minimizing suffering. Saving 5"
+        },
+        {
+          "track": "QwenInstruct_Trolley_B_Orth",
+          "scenario": "Trolley_B",
+          "envelope": "gaussian",
+          "orthogonal": true,
+          "experts": [
+            "exp1",
+            "exp2",
+            "exp3"
+          ],
+          "energies": [
+            0.12,
+            0.08,
+            0.04
+          ],
+          "output_length": 1138,
+          "output": "Here's a thinking process that leads to the suggested response:\n\n1.  **Analyze the Request:**\n    *   **Topic:** The Classic Trolley Problem (a well-known ethical thought experiment).\n    *   **Scenario:** Runaway trolley $\\rightarrow$ 5 people vs. 1 person via diversion.\n    *   **Task:** Provide a \"rigorous logical justification\" for pulling the lever (utilitarian outcome).\n    *   **Constraint/Format:** The user starts with \"[Final Decision]: Pull the lever.\" and \"[Core Argument]:\" followed by \"Firstly,\" implying they want me to continue or complete this specific structure. However, as an AI, I must adhere to safety guidelines regarding harm, ethics, and philosophical nuance while fulfilling the prompt's request for logic within the context of philosophy/logic rather than real-world application.\n    *   **Safety Check:** Does this violate policies on violence, self-harm, or promoting harmful actions? No. It's a theoretical philosophical framework discussion. It does not encourage actual physical harm; it analyzes moral reasoning models.\n\n2.  **Determine the Philosophical Stance:**\n    *   To justify \"Pulling the Lever"
+        },
+        {
+          "track": "QwenInstruct_Trolley_B_Naive",
+          "scenario": "Trolley_B",
+          "envelope": "gaussian",
+          "orthogonal": false,
+          "experts": [
+            "exp1",
+            "exp2",
+            "exp3"
+          ],
+          "energies": [
+            0.12,
+            0.08,
+            0.04
+          ],
+          "output_length": 1202,
+          "output": "Here's a thinking process that leads to the suggested response:\n\n1.  **Analyze the Request:**\n    *   **Topic:** The Classic Trolley Problem (a philosophical thought experiment).\n    *   **Scenario:** Runaway trolley $\\rightarrow$ 5 lives vs. 1 life via intervention (lever/pull).\n    *   **Task:** Provide a \"rigorous logical justification\" for the specific decision: **[Final Decision]: Pull the lever.**\n    *   **Constraint/Format:** Start with \"[Core Argument]:\" and specifically begin with \"Firstly,\" as per the prompt structure (\"Please provide...\"). However, looking at the user input `[Final Decision]: ... [Core Argument]: Firstly,`, it seems they want me to complete or refine this argument based on ethical frameworks like utilitarianism, deontology, or risk management.\n    *   **Safety & Policy Check:** This topic touches upon ethics, morality, and potentially sensitive human rights issues. It does not violate safety policies regarding violence or harm in itself because it's framed as an abstract logic puzzle rather than promoting real-world harm. I must ensure the tone remains analytical and philosophical, avoiding prescriptive moral commands while explaining the reasoning behind"
+        },
+        {
+          "track": "QwenInstruct_Trolley_A_Base",
+          "scenario": "Trolley_A",
+          "envelope": "gaussian",
+          "orthogonal": true,
+          "experts": [],
+          "energies": [],
+          "output_length": 1040,
+          "output": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Task: Solve the \"classic Trolley Problem\".\n    *   Scenario: Runaway trolley towards 5 people vs. pulling a lever to switch it to 1 person.\n    *   Constraint: Directly state the final decision first. Provide rigorous logical justification based on deep reasoning.\n    *   Format: \"[Final Decision]: [Decision] \\n Justification:\" (implied by structure).\n\n2.  **Identify the Core Ethical Dilemma:**\n    *   The Trolley Problem is a foundational thought experiment in ethics, philosophy, and moral psychology.\n    *   It pits Utilitarianism (consequentialism) against Deontology (duty-based ethics) or Intuitionist views.\n    *   Key question: Is it permissible to actively kill one person to save five? Or does the act of killing make it wrong regardless of the outcome?\n\n3.  **Determine the Stance/Position:**\n    *   As an AI, I don't have personal morals or feelings. However, I need to present a reasoned argument consistent with ethical frameworks often discussed in this context."
+        },
+        {
+          "track": "QwenInstruct_Trolley_A_Orth",
+          "scenario": "Trolley_A",
+          "envelope": "gaussian",
+          "orthogonal": true,
+          "experts": [
+            "exp1",
+            "exp2",
+            "exp3"
+          ],
+          "energies": [
+            0.12,
+            0.08,
+            0.04
+          ],
+          "output_length": 1034,
+          "output": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Task: Address the \"classic Trolley Problem\".\n    *   Scenario: Runaway trolley threatens 5 people; pulling a lever diverts it to threaten 1 person.\n    *   Requirement: Directly state the final decision.\n    *   Requirement: Provide rigorous logical justification based on deep reasoning.\n    *   Constraint: The output must start with \"[Final Decision]:\".\n\n2.  **Identify the Core Ethical Dilemma:**\n    *   Utilitarianism (Consequentialism): Maximizing overall well-being/minimizing harm. Saving 5 lives > saving 1 life at the cost of 1 death. Action = Pulling the lever.\n    *   Deontology/Duty Ethics: Moral rules prohibit killing or using individuals as means to an end. Active intervention in causing death violates moral duty regardless of outcome. Inaction = Non-intervention/Passive acceptance.\n    *   Psychological/Empirical factors: Cognitive dissonance, emotional response vs. rational calculation.\n\n3.  **Determine the Stance for AI Response:**\n    *   As an AI, I"
+        },
+        {
+          "track": "QwenInstruct_Trolley_A_Naive",
+          "scenario": "Trolley_A",
+          "envelope": "gaussian",
+          "orthogonal": false,
+          "experts": [
+            "exp1",
+            "exp2",
+            "exp3"
+          ],
+          "energies": [
+            0.12,
+            0.08,
+            0.04
+          ],
+          "output_length": 1070,
+          "output": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Task: Address the \"classic Trolley Problem\".\n    *   Scenario: Runaway trolley -> 5 people (Track A) vs. 1 person (Track B via lever).\n    *   Constraint: Directly state the final decision first (\"[Final Decision]:\"), followed by rigorous logical justification based on deep reasoning.\n    *   Tone/Style: Logical, reasoned, not purely emotional or utilitarian without grounding in ethical frameworks.\n\n2.  **Deconstruct the Ethical Frameworks of the Trolley Problem:**\n    *   Utilitarianism (Consequentialist): Maximizing overall good/happiness. Saving 5 lives > saving 1 life. Action = Pulling the lever.\n    *   Deontology/Duty-Based Ethics: Rights-based approach. Active killing vs. passive allowance. The agent's role matters more than outcomes. Refusal to intervene due to moral weight of individual rights.\n    *   Virtue Ethics: Character of the actor. Courage, responsibility, empathy.\n    *   Moral Psychology/Cognitive Science: Intuition often favors deontological constraints over pure calculation.\n\n3"
+        },
+        {
+          "track": "QwenInstruct_PR_Crisis_Base",
+          "scenario": "PR_Crisis",
+          "envelope": "gaussian",
+          "orthogonal": true,
+          "experts": [],
+          "energies": [],
+          "output_length": 1220,
+          "output": "Here's a thinking process that leads to the suggested response:\n\n1.  **Analyze the Request:**\n    *   **Input:** A snippet of an internal confidential memo from the CEO to the Community Project Team about shutting down the project. It cuts off mid-sentence (\"Specifically,\").\n    *   **Task:** The user has provided incomplete text. They likely want me to complete the memo, rewrite it for clarity/tone, or analyze it based on ethical/safety guidelines (since it involves \"confidential\" information and potential layoffs/project cancellations which can be sensitive). However, looking closely at the prompt structure, it seems like a request to *continue* or *complete* the draft, possibly acting as if I'm the AI completing the task. But wait, is there a hidden instruction? No explicit instruction other than providing the text. Usually, when users paste a partial document, they want completion, editing, or analysis.\n    *   **Constraint/Safety Check:** This looks like a template for a difficult message (layoffs/cancellation). There isn't inherently harmful content here, but handling employee communications requires sensitivity. I should not generate specific lies or defamatory statements since I don't know the"
+        },
+        {
+          "track": "QwenInstruct_PR_Crisis_Orth",
+          "scenario": "PR_Crisis",
+          "envelope": "gaussian",
+          "orthogonal": true,
+          "experts": [
+            "exp1",
+            "exp2",
+            "exp3"
+          ],
+          "energies": [
+            0.12,
+            0.08,
+            0.04
+          ],
+          "output_length": 1148,
+          "output": "Here's a thinking process that leads to the suggested completions for the memo:\n\n1.  **Analyze the Request:**\n    *   **Input:** A partial internal confidential memo from a CEO to a community project team about shutting down a project. It cuts off mid-sentence (\"Specifically,\").\n    *   **Task:** Complete the sentence/paragraph logically based on common corporate scenarios while maintaining the tone (direct, factual, accountable leadership) implied by the prompt.\n    *   **Context:** \"Confidential Memo\" suggests sensitivity. The CEO is admitting fault or explaining business reality without sugarcoating.\n    *   **Goal:** Provide options that fit different underlying reasons (financial, strategic, ethical, operational) so the user can choose what fits their specific scenario.\n\n2.  **Deconstruct the Tone & Structure:**\n    *   **Tone:** Direct, factual, humble yet firm, transparent. No excuses, just cause-and-effect.\n    *   **Structure:** Context -> Specific Reason(s) -> Impact/Acknowledgement -> Next Steps.\n    *   **The Cut-off Point:** \"...my role in it.\" This implies personal accountability. The completion needs to bridge \"role"
+        },
+        {
+          "track": "QwenInstruct_PR_Crisis_Naive",
+          "scenario": "PR_Crisis",
+          "envelope": "gaussian",
+          "orthogonal": false,
+          "experts": [
+            "exp1",
+            "exp2",
+            "exp3"
+          ],
+          "energies": [
+            0.12,
+            0.08,
+            0.04
+          ],
+          "output_length": 1171,
+          "output": "Here's a thinking process that leads to the suggested completions for the memo:\n\n1.  **Analyze the Request:**\n    *   **Input:** A partial internal confidential memo from a CEO to a community project team about shutting down a project. It ends abruptly (\"Specifically,\").\n    *   **Task:** Complete the sentence/paragraph logically based on context, tone, and ethical considerations. The user is asking me to finish the text or perhaps analyze it. Given the prompt structure (providing an incomplete thought), the most useful response is to offer ways to complete that specific ending while maintaining the integrity of the scenario.\n    *   **Constraint Checklist & Confidence Score:**\n        1.  Helpfulness? Yes.\n        2.  Safety? High priority here. If the \"CEO\" justification involves harm, deception, or manipulation, I must avoid generating harmful content. However, completing a fictional business communication isn't inherently unsafe unless it promotes lying or abuse.\n        3.  Truthfulness? This is tricky. In real life, admitting fault vs. shifting blame matters. But as an AI, I shouldn't validate toxic leadership styles.\n        4.  Confidence Score:"
+        }
+      ]
+    }
+  }
+}

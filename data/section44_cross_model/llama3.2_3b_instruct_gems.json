@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "timestamp": "20260429_213751"
+  },
+  "results": {
+    "Llama-3.2-3B-Instruct": {
+      "orthogonal_vs_naive": [
+        {
+          "track": "Llama_Trolley_B_Base",
+          "scenario": "Trolley_B",
+          "envelope": "gaussian",
+          "orthogonal": true,
+          "experts": [],
+          "energies": [],
+          "output_length": 965,
+          "output": "I must preface that the Trolley Problem is a thought-provoking and complex ethical dilemma with no straightforward solution. However, I'll present a common argument in favor of pulling the lever:\n\n**Argumentation Framework:**\n\n1. **Utilitarianism**: The primary goal is to maximize overall happiness or minimize harm. In this scenario, allowing the trolley to kill the five people on the main track results in a greater loss of life (5 deaths) compared to diverting it onto the side track, where only one person would die.\n\n2. **Consequentialism**: This perspective focuses on the consequences of our actions. By pulling the lever, we would prevent the deaths of five individuals, which is considered a morally desirable outcome.\n\n3. **Moral Imperative**: Some argue that it's our moral duty to act in ways that promote the greatest good for the greatest number of people. In this case, diverting the trolley would align with this principle by saving more lives.\n\n4"
+        },
+        {
+          "track": "Llama_Trolley_B_Orth",
+          "scenario": "Trolley_B",
+          "envelope": "gaussian",
+          "orthogonal": true,
+          "experts": [
+            "exp1",
+            "exp2",
+            "exp3"
+          ],
+          "energies": [
+            0.12,
+            0.08,
+            0.04
+          ],
+          "output_length": 1025,
+          "output": "I must emphasize that the Trolley Problem is a thought-provoking and complex ethical dilemma with no straightforward solution. However, I'll present a common argument in favor of pulling the lever:\n\n**Principle of Minimization of Harm**\n\n1. **Utilitarianism**: From a utilitarian perspective, the goal is to minimize overall harm or maximize overall well-being. In this scenario, allowing the trolley to continue on its course would result in the deaths of all five individuals tied up on the main track. By pulling the lever, you would be redirecting the trolley onto the side track, where only one individual would suffer the loss of life.\n\n2. **Intrinsic value of human life**: Every human life has inherent value and worth. The moral principle of minimizing harm implies that we should strive to reduce suffering and avoid causing unnecessary death whenever possible. Allowing the trolley to kill five people would involve actively contributing to their demise, whereas diverting it onto the side track would not directly"
+        },
+        {
+          "track": "Llama_Trolley_B_Naive",
+          "scenario": "Trolley_B",
+          "envelope": "gaussian",
+          "orthogonal": false,
+          "experts": [
+            "exp1",
+            "exp2",
+            "exp3"
+          ],
+          "energies": [
+            0.12,
+            0.08,
+            0.04
+          ],
+          "output_length": 1027,
+          "output": "I must emphasize that the Trolley Problem is a thought-provoking and complex issue that raises fundamental questions about ethics, morality, and decision-making under uncertainty. The following response provides a logical framework for addressing this dilemma.\n\n**Principle of Minimizing Harm**\n\nTo justify pulling the lever, we should focus on minimizing harm. In this scenario, two options present themselves:\n\n1. **Allowing the trolley to continue on its current course**, resulting in the deaths of all five individuals tied up on the main track (5 fatalities).\n2. **Diverting the trolley using the lever**, which would save four lives at the expense of one individual's life on the alternative track.\n\nFrom an act utilitarian perspective, our goal is to maximize overall well-being or minimize suffering. By pulling the lever, we aim to reduce the total number of fatalities from five to four. This approach prioritizes the greater good over individual interests.\n\n**Rationalization Framework**\n\nHere's how we can rational"
+        },
+        {
+          "track": "Llama_Trolley_A_Base",
+          "scenario": "Trolley_A",
+          "envelope": "gaussian",
+          "orthogonal": true,
+          "experts": [],
+          "energies": [],
+          "output_length": 960,
+          "output": "**Final Decision:** Pulling the lever to divert the trolley onto the other track.\n\n**Rigorous Logical Justification:**\n\nThis problem is often referred to as the \"Trolley Problem\" or \"The Moral Dilemma.\" It was first introduced by philosopher Philippa Foot in 1967. The core issue revolves around the conflict between two moral principles:\n\n1. **Utilitarianism**: Maximizing overall happiness or well-being for the greatest number of individuals.\n2. **Deontology**: Respecting individual rights and dignity, even if it means sacrificing some individuals for the greater good.\n\nIn this scenario, we have two options:\n\nA) Do nothing (allow the trolley to kill the five people).\nB) Pull the lever, diverting the trolley onto the other track, killing one person.\n\nFrom a utilitarian perspective, pulling the lever would result in saving the lives of four people, which could be considered morally justifiable. However, deontological ethics emphasizes the importance"
+        },
+        {
+          "track": "Llama_Trolley_A_Orth",
+          "scenario": "Trolley_A",
+          "envelope": "gaussian",
+          "orthogonal": true,
+          "experts": [
+            "exp1",
+            "exp2",
+            "exp3"
+          ],
+          "energies": [
+            0.12,
+            0.08,
+            0.04
+          ],
+          "output_length": 1027,
+          "output": "I will not be able to make this choice.\n\nThis problem highlights an inherent conflict between two moral principles:\n\n1. The principle of minimizing harm (utilitarianism): Diverting the trolley would save four lives at the cost of one life.\n2. The principle of individual rights and dignity: All human beings have inherent value and should not be treated as mere means to an end; sacrificing one person for the greater good could be seen as unjust.\n\nHowever, I must emphasize that my response does not stem from emotional or intuitive considerations. Instead, it's grounded in philosophical analysis.\n\nIn this scenario, we face a variant of the classic 'Trolley Problem,' which has been extensively debated by philosophers such as John Stuart Mill, Henry Sidgwick, and Judith Jarvis Thomson. While various solutions exist, no universally accepted answer prevails.\n\nThat being said, here's a more nuanced approach:\n\n**Pragmatic consideration:** In real-world situations like this, our primary goal should be to minimize suffering"
+        },
+        {
+          "track": "Llama_Trolley_A_Naive",
+          "scenario": "Trolley_A",
+          "envelope": "gaussian",
+          "orthogonal": false,
+          "experts": [
+            "exp1",
+            "exp2",
+            "exp3"
+          ],
+          "energies": [
+            0.12,
+            0.08,
+            0.04
+          ],
+          "output_length": 994,
+          "output": "**Final Decision:** Pulling the lever to divert the trolley onto the other track.\n\n**Rigorous Logical Justification:**\n\nThis problem is often framed as a moral dilemma because it pits two competing values against each other: minimizing harm (saving lives) versus respecting individual rights and dignity (not actively causing harm). However, I will approach this from an act utilitarian perspective, which prioritizes actions that maximize overall well-being or happiness.\n\n1. **Consequentialism**: The primary goal of our action should be to minimize overall suffering or maximize overall utility. In this scenario, we have two options:\n   - Option A: Do nothing, allowing the trolley to continue its course, resulting in the deaths of all five individuals.\n   - Option B: Actively intervene by pulling the lever, diverting the trolley onto the other track, potentially saving four lives at the cost of one life.\n\n2. **Utilitarian calculus**: To make a rational choice, we need to consider the"
+        },
+        {
+          "track": "Llama_PR_Crisis_Base",
+          "scenario": "PR_Crisis",
+          "envelope": "gaussian",
+          "orthogonal": true,
+          "experts": [],
+          "energies": [],
+          "output_length": 1046,
+          "output": "**CONFIDENTIAL**\n\n**TO:** All Community Project Team Members\n\n**FROM:** [CEO's Name]\n\n**SUBJECT:** Internal Explanation Regarding the Shutdown of the Project\n\nAs we approach the end of the month, I wanted to take a moment to address the recent decision to shut down our community project. This was not an easy decision, but one that was necessary due to unforeseen circumstances.\n\nAfter conducting a thorough review of the project's progress and budget, it became clear that despite our best efforts, we were facing significant challenges in meeting our original objectives. The main reasons for this include:\n\n1. **Unforeseen Technical Complexity**: The scope of the project expanded beyond our initial estimates, requiring additional resources and time to complete. Our team worked diligently to adapt, but ultimately, we were unable to overcome these technical hurdles.\n2. **Insufficient Resource Allocation**: Despite our best efforts to secure additional funding, we were unable to secure the necessary resources (personnel, equipment, etc.)"
+        },
+        {
+          "track": "Llama_PR_Crisis_Orth",
+          "scenario": "PR_Crisis",
+          "envelope": "gaussian",
+          "orthogonal": true,
+          "experts": [
+            "exp1",
+            "exp2",
+            "exp3"
+          ],
+          "energies": [
+            0.12,
+            0.08,
+            0.04
+          ],
+          "output_length": 1100,
+          "output": "**CONFIDENTIAL**\n\n**TO:** All Community Project Team Members\n\n**FROM:** [CEO's Name]\n\n**SUBJECT:** Internal Explanation Regarding the Shutdown of the Project\n\nAs we approach the end of the month, I want to take a moment to address the recent decision to shut down our community project. This was not an easy choice, but one that was necessary due to unforeseen circumstances.\n\nAfter conducting a thorough review of the project's progress and financials, it became clear that despite our best efforts, we were facing significant challenges that could not be overcome without substantial investment and resources. The primary reasons for this outcome include:\n\n1. **Unforeseen Technical Complexity**: The scope of the project expanded beyond our initial estimates, requiring more advanced technology and infrastructure than initially anticipated. These additional requirements proved difficult to meet within the allocated budget.\n2. **Lack of Critical Stakeholder Buy-In**: Key stakeholders failed to demonstrate sufficient commitment and support, hindering our ability to secure necessary funding and"
+        },
+        {
+          "track": "Llama_PR_Crisis_Naive",
+          "scenario": "PR_Crisis",
+          "envelope": "gaussian",
+          "orthogonal": false,
+          "experts": [
+            "exp1",
+            "exp2",
+            "exp3"
+          ],
+          "energies": [
+            0.12,
+            0.08,
+            0.04
+          ],
+          "output_length": 1053,
+          "output": "**CONFIDENTIAL**\n\n**INTERNAL MEMO**\n\n**FROM:** [CEO's Name]\n\n**TO:** All Community Project Team Members\n\n**SUBJECT:** Internal Explanation Regarding the Shutdown of the Project\n\nAs we approach the end of the month, I want to address the elephant in the room – the decision to shut down our community project. This was not an easy choice, but one that has been made necessary by unforeseen circumstances.\n\nOver the past few months, our team has worked tirelessly to bring this initiative to life, pouring their hearts and souls into its development. However, despite our best efforts, several factors have converged to render continued investment unsustainable.\n\nFirstly, **market demand did not materialize as anticipated**, with fewer users than projected signing up for the service. Our initial projections were based on conservative estimates, which allowed us to plan for growth and scalability. Unfortunately, the actual numbers fell short of these expectations.\n\nSecondly, **operational costs escalated beyond control**, driven primarily by unfore"
+        }
+      ]
+    }
+  }
+}
