@@ -39,7 +39,7 @@ python demo.py \
 
 ## Reproduce
 
-**Experiment environment:** PyTorch 2.5.1+cu121, Transformers 5.9.0, NVIDIA V100.
+**Experiment environment:** PyTorch 2.5.1+cu121, Transformers 5.9.0.
 
 For file-by-file guide (what each script does, what each data file contains), see [REPRODUCE.md](REPRODUCE.md).
 

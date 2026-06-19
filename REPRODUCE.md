@@ -1,6 +1,6 @@
 # Reproduction Guide
 
-Experiment environment: PyTorch 2.5.1+cu121, Transformers 5.9.0, NVIDIA V100.
+Experiment environment: PyTorch 2.5.1+cu121, Transformers 5.9.0.
 
 Transformers `>=4.57.0` is required (Qwen3.5 hybrid architecture). Other versions are flexible.
 
