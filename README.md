@@ -11,7 +11,8 @@ Existing unoptimized pure forward-pass interventions for LLMs can inject a singl
 ## Install
 
 ```bash
-git clone https://github.com/LuLu663939/gems-multi-semantic-steering.git && cd GEMS
+git clone https://github.com/LuLu663939/gems-multi-semantic-steering.git GEMS
+cd GEMS
 bash scripts/setup.sh
 ```
 
